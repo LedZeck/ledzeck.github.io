@@ -1,0 +1,59 @@
+html, body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #e1ebd0;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  #bg{
+    height: 100vh;
+  }
+
+  #top{
+    margin-top: 10%;
+    font-family: 'VT323', cursive;
+    font-weight: 700;
+  }
+
+  #top h1, h2, h3, h4, h5{
+    font-family: 'VT323', cursive;
+}
+  #top p{
+    font-size: 24px;
+  }
+#description p{
+    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+  #mid{
+    height: 70vh;
+    background-color: #e1ebd0;
+  }
+
+  #projects{
+        font-family: 'VT323', cursive;
+        color:#bbe1d4;
+  }
+
+  .titles{
+    text-shadow: 1px 1px 1px #90ada3;
+  }
+
+.circle{
+    border: 4px solid #bbe1d4;
+    visibility: hidden;
+}
+
+footer.page-footer{
+    background-color: #e1ebd0;
+}
+
+footer.page-footer h3{
+    color:#bbe1d4;
+    text-shadow: 1px 1px 1px #90ada3;
+}
