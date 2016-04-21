@@ -21,6 +21,7 @@ html, body {
 
   #top h1, h2, h3, h4, h5{
     font-family: 'VT323', cursive;
+    color: #122939;
 }
   #top p{
     font-size: 24px;
@@ -49,11 +50,12 @@ html, body {
     visibility: hidden;
 }
 
+
 footer.page-footer{
     background-color: #e1ebd0;
 }
 
 footer.page-footer h3{
-    color:#bbe1d4;
+    color:#122939;
     text-shadow: 1px 1px 1px #90ada3;
 }
